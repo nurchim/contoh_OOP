@@ -25,13 +25,13 @@ extra_ci = [
 ]
 
 setup(
-    name='my_pip_package',
+    name='contoh',
     version=__version__,
     description='A tutorial for creating pip packages.',
 
-    url='https://github.com/MichaelKim0407/tutorial-pip-package',
-    author='Michael Kim',
-    author_email='mkim0407@gmail.com',
+    url='https://github.com/nurchim/contoh_OOP',
+    author='Nurchim',
+    author_email='nurchim@udb.ac.id',
 
     packages=find_packages(exclude=['tests', 'tests.*']),
 
@@ -48,7 +48,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'add=my_pip_package.math:cmd_add',
+            'add=contoh.math:cmd_add',
         ],
     },
 
